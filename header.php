@@ -12,7 +12,7 @@
                                   <span class="icon-bar"></span>
                                   <span class="icon-bar"></span>
                             </button>
-                                <a class="navbar-brand " href="#"><img src="assets/img/EasyTechSolutionLogo.jpg" alt="logo"></a>
+                                <a class="navbar-brand " href="#"><img src="assets/img/logo.png" alt="logo"></a>
                       </div>
 
                               <!-- Collect the nav links, forms, and other content for toggling -->

@@ -1,4 +1,3 @@
-
 <html lang="zxx"><!-- Mirrored from thesoftking.com/html/loyalhost/preview/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Dec 2018 16:47:05 GMT --><head><style id="stndz-style"></style>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -78,12 +77,11 @@
                 <div class="col-md-6 text-right">
                     <div class="contact-admin">
                       <p>
-                        <i class="fa fa-shopping-cart"></i>Cart
-                        <span>(2)</span>
+                        <i class="fa fa-shopping-cart"></i>CCtv<span></span>
                       </p>
                         
-                      <a href="#"><i class="fa fa-user"></i> Login</a>
-                      <a href="#"><i class="fa fa-user-plus"></i> Registration</a>
+                      <a href="#"><i class="fa fa-user"></i>Software</a>
+                      <a href="#"><i class="fa fa-user-plus"></i>Home Automation</a>
                       <div class="support-bar-social-links">
                           <a href="https://www.facebook.com/rjporosh1994"><i class="fa fa-facebook"></i></a>
                           <a href="https://www.twitter.com/rjporosh"><i class="fa fa-twitter"></i></a>
@@ -95,26 +93,69 @@
                 </div>
             </div>
         </div>
-    <canvas height="5" width="1369" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1369" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas></div>
+    <canvas height="5" width="1369" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1369" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas></div>
     <!--support bar  top end-->
     
     <!-- header section end -->
 
    
    <!--Header section start-->
-   <?php include 'header.php';?>
-   <section class="header-area ">
+   <header>
+      <!-- Header bottom start -->
+      <div class="header-bottom header header-wrapper menu-fixed animated fadeInDown slick-position">
+        <nav class="navbar navbar-default">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                  <span class="sr-only">Toggle navigation</span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                            </button>
+                                <a class="navbar-brand " href="#"><img src="assets/img/logo.png" alt="logo"></a>
+                      </div>
+
+                              <!-- Collect the nav links, forms, and other content for toggling -->
+                              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav" id="header-menu">
+                                    <li class="menu-active dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">home<span class="sr-only">(current)</span></a>
+
+                                        <ul class="dropdown-menu mega-menu mega-menu1 mega-menu3">
+                                          <li class="mega-list mega-list1 ">
+                                            <a class="menu-active" href="#"> Home page</a>
+                                          </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"> about</a></li>
+                                    <li><a href="#"> service</a></li>
+                                    
+                                    <li><a href="#"> Contact</a></li>
+                                </ul>
+                                
+                          </div><!-- /.navbar-collapse -->
+                            
+                </div>
+            </div>
+          </div>
+        </nav><!-- nav -->
+      </div>
+       <!-- header-bottom end -->
+    </header>
+	   <section class="header-area ">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
                 </ol>
                 <!-- Wrapper for slides -->
 
                  <div class="carousel-inner" role="listbox">
-                    <div class="item carousel-thumb1 active">
+                    <div class="item carousel-thumb1">
                        <div class="container">
                            <div class="row">
                                <div class="col-md-8 col-md-offset-2 text-center">
@@ -160,7 +201,7 @@
                            </div>
                        </div>
                     </div>
-                    <div class="item carousel-thumb3">
+                    <div class="item carousel-thumb3 active">
                        <div class="container">
                            <div class="row">
                                <div class="col-md-8 col-md-offset-2 text-center">
@@ -198,29 +239,7 @@
   <div class="clearfix"></div>
 
   <!-- Admin section start -->
-  <div class="admin-section" id="raindrops" style="overflow: hidden; position: relative;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <!-- admin content start -->
-          <div class="admin-content">
-            <!-- admin text start -->
-            <div class="admin-text">
-              <h2>Get access to Your account</h2>
-            </div>
-            <!-- admin text end -->
-            <!-- admin user start -->
-            <div class="admin-user">
-              <button class="button-hover" type="submit" name="login">sign in</button>
-              <button type="submit" name="register">register now</button>
-            </div>
-            <!-- admin user end -->
-          </div>
-          <!-- admin-content end -->
-        </div>
-      </div>
-    </div>
-  <canvas height="5" width="1369" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1369" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas><canvas height="5" width="1519" style="position: absolute; bottom: 0px; left: 0px;"></canvas></div>
+  
   <!-- Admin section end -->
 
   <div class="clearfix"></div>
@@ -250,7 +269,7 @@
                       <i class="fa fa-rocket fa-3x"></i>
                     </a>
                   </div>
-                  <p>super fast server</p>
+                  <p>CCtv</p>
                   
                   
                 </li>
@@ -260,7 +279,7 @@
                       <i class="fa fa-cloud fa-3x"></i>
                   </a>
                   </div>
-                  <p>secure &amp; reliable</p>
+                  <p>Home Automation</p>
                   </li>
                 <li class="">
                   <div class="service-thumb">
@@ -268,27 +287,20 @@
                       <i class="fa fa-server fa-3x"></i>
                     </a>
                   </div>
-                  <p>pure ssd only</p>
-                </li>
-                <li class="">
-                  <div class="service-thumb">
-                    <a href="#backup" data-toggle="tab" aria-expanded="false">
-                      <i class="fa fa-calendar" aria-hidden="true"></i>
-                  </a>
-                  </div>
-                  <p>daily backups</p>
-                </li>
-                <li class="">
-                  <div class="service-thumb">
-                     <a href="#technical" data-toggle="tab" aria-expanded="false">
-                        <i class="fa fa-cogs"></i>
-                    </a>
-                  </div>
-                   <p>technical services</p>
+                  <p>Software</p>
                 </li>
                 <li class="active">
                   <div class="service-thumb">
-                    <a href="#support" data-toggle="tab" aria-expanded="true">
+                    <a href="#backup" data-toggle="tab" aria-expanded="true">
+                      <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </a>
+                  </div>
+                  <p>Web Developement</p>
+                </li>
+                
+                <li class="">
+                  <div class="service-thumb">
+                    <a href="#support" data-toggle="tab" aria-expanded="false">
                       <i class="fa fa-support"></i>
                     </a>
                   </div>
@@ -308,17 +320,17 @@
                       <div class="row">
                       <div class="col-md-6">
                         <div class="service-text">
-                          <h3>pure dedicated only</h3>
+                          <h3>CCTV</h3>
                           <div class="service-text-para">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>This is EasyTech Solution The Ultimate Solution For Your Life.Here You can Find CCTV,Home Automation,Software,Web Developement And Obviousely 24x7 ASupport that you not need to Worry about Security and viruses and Also For Hackers.</p>
+                            <p>This is EasyTech Solution The Ultimate Solution For Your Life.Here You can Find CCTV,Home Automation,Software,Web Developement And Obviousely 24x7 ASupport that you not need to Worry about Security and viruses and Also For Hackers.</p>
                           </div>
                           <a href="#">read more</a>
                         </div>
                     </div>
                     <div class="col-md-6">
                       <div class="service-thumb">
-                        <img src="assets/img/service1.png" alt="service">
+                        <img src="assets/img/cctvs.jpg" alt="service">
                       </div>
                     </div>
                     </div>
@@ -330,17 +342,17 @@
                       <div class="row">
                       <div class="col-md-6">
                         <div class="service-text">
-                          <h3>pure hosting only</h3>
+                          <h3>Home-Automation</h3>
                           <div class="service-text-para">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>This is EasyTech Solution The Ultimate Solution For Your Life.Here You can Find CCTV,Home Automation,Software,Web Developement And Obviousely 24x7 ASupport that you not need to Worry about Security and viruses and Also For Hackers.</p>
+                            <p>This is EasyTech Solution The Ultimate Solution For Your Life.Here You can Find CCTV,Home Automation,Software,Web Developement And Obviousely 24x7 ASupport that you not need to Worry about Security and viruses and Also For Hackers.</p>
                           </div>
                           <a href="#">read more</a>
                         </div>
                     </div>
                     <div class="col-md-6">
                       <div class="service-thumb">
-                        <img src="assets/img/service1.png" alt="service">
+                        <img src="assets/img/home-automation.jpg" alt="service">
                       </div>
                     </div>
                     </div>
@@ -351,38 +363,38 @@
                       <div class="row">
                       <div class="col-md-6">
                         <div class="service-text">
-                          <h3>pure ssd only</h3>
+                          <h3>Software</h3>
                           <div class="service-text-para">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>This is EasyTech Solution The Ultimate Solution For Your Life.Here You can Find CCTV,Home Automation,Software,Web Developement And Obviousely 24x7 ASupport that you not need to Worry about Security and viruses and Also For Hackers.</p>
+                            <p>This is EasyTech Solution The Ultimate Solution For Your Life.Here You can Find CCTV,Home Automation,Software,Web Developement And Obviousely 24x7 ASupport that you not need to Worry about Security and viruses and Also For Hackers.</p>
                           </div>
                           <a href="#">read more</a>
                         </div>
                     </div>
                     <div class="col-md-6">
                       <div class="service-thumb">
-                        <img src="assets/img/service1.png" alt="service">
+                        <img src="assets/img/software.jpg" alt="service">
                       </div>
                     </div>
                     </div>
                     </div>
                     <!-- Service Content Item End -->
                     <!-- Service Content Item Start -->
-                    <div class="service-content-item tab-pane" role="tabpanel" id="backup">
+                    <div class="service-content-item tab-pane active" role="tabpanel" id="backup">
                       <div class="row">
                       <div class="col-md-6">
                         <div class="service-text">
-                          <h3>pure ssd only</h3>
+                          <h3>Web Developement</h3>
                           <div class="service-text-para">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>This is EasyTech Solution The Ultimate Solution For Your Life.Here You can Find CCTV,Home Automation,Software,Web Developement And Obviousely 24x7 ASupport that you not need to Worry about Security and viruses and Also For Hackers.</p>
+                            <p>This is EasyTech Solution The Ultimate Solution For Your Life.Here You can Find CCTV,Home Automation,Software,Web Developement And Obviousely 24x7 ASupport that you not need to Worry about Security and viruses and Also For Hackers.</p>
                           </div>
                           <a href="#">read more</a>
                         </div>
                     </div>
                     <div class="col-md-6">
                       <div class="service-thumb">
-                        <img src="assets/img/service1.png" alt="service">
+                        <img src="assets/img/web.jpg" alt="service">
                       </div>
                     </div>
                     </div>
@@ -410,14 +422,14 @@
                     </div>
                     <!-- Service Content Item End -->
                      <!-- Service Content Item Start -->
-                    <div class="service-content-item tab-pane  active" role="tabpanel" id="support">
+                    <div class="service-content-item tab-pane" role="tabpanel" id="support">
                       <div class="row">
                       <div class="col-md-6">
                         <div class="service-text">
-                          <h3>pure ssd only</h3>
+                          <h3>Easy-Tech Solution</h3>
                           <div class="service-text-para">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>The ultimate solution for your life.EasyTech solution provides you CCtv,Home Automation,Software,Web Developement and Most Obviousely 24x7 support.</p>
+                            <p>You can Order for almost any software and get the genuine versions pof software with genuine license key that you dont have to care about virus or worry for security like some hackers could hack yours staff. </p>
                           </div>
                           <a href="#">read more</a>
                         </div>
@@ -494,7 +506,7 @@
                       </ul>
                     </div>
                   <div class="team-content">
-                    <h5><a href="#">richard peterson</a></h5>
+                    <h5><a href="#">Abdut Tawab Asif</a></h5>
                     <p>director</p>
                   </div>
                 </div>
@@ -526,7 +538,7 @@
                 <!-- Team Item Start -->
                 <div class="team-item">
                   <div class="team-thumb">
-                    <img src="assets/img/team3.png" alt="team">
+                    <img src="assets/img/team3.jpg" alt="team">
                     
                   </div>
                   <div class="team-overlay">
@@ -538,7 +550,7 @@
                       </ul>
                     </div>
                   <div class="team-content">
-                    <h5><a href="#">alia mick</a></h5>
+                    <h5><a href="#">rj Porosh</a></h5>
                     <p>system manager</p>
                   </div>
                 </div>
@@ -672,7 +684,7 @@
             <!-- Blog List Start -->
             <div class="blog-list">
               <!-- Blog Thumb Start -->
-              <div class="blog-thumb"><img src="assets/img/blog-1.jpg" alt="blog">
+              <div class="blog-thumb"><img src="assets/img/cctvs.jpg" alt="blog">
                   <div class="blog-overlay"><span></span><span class="blog-rotate"></span></div>
                   <div class="blog-text">
                       <div class="blog-text1">
@@ -687,10 +699,10 @@
               <!-- Blog Thumb End-->
               <!-- Blog Content Start -->
               <div class="blog-content">
-                <div class="blog-header"><h6><a href="#">Best hosting services</a></h6></div>
+                <div class="blog-header"><h6><a href="#">Best CCtv's</a></h6></div>
                 <ul>
                   <li><i class="fa fa-user"></i><span>john</span></li>
-                  <li><i class="fa fa-bookmark"></i><span>hosting </span></li>
+                  <li><i class="fa fa-bookmark"></i><span>Best-CCtv</span></li>
                   <li><i class="fa fa-comments-o"></i><span>Comments: 25</span></li>
                 </ul>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>
@@ -704,7 +716,7 @@
             <!-- Blog List Start -->
             <div class="blog-list">
               <!-- Blog Thumb Start -->
-              <div class="blog-thumb"><img src="assets/img/blog-2.jpg" alt="blog">
+              <div class="blog-thumb"><img src="assets/img/home-automation.jpg" alt="blog">
                   <div class="blog-overlay"><span></span><span></span></div>
                   <div class="blog-text">
                       <div class="blog-text1">
@@ -719,10 +731,10 @@
               <!-- Blog Thumb End-->
               <!-- Blog Content Start -->
               <div class="blog-content">
-                <div class="blog-header"><h6><a href="#">Best hosting services</a></h6></div>
+                <div class="blog-header"><h6><a href="#">Best home-automation services</a></h6></div>
                 <ul>
                   <li><i class="fa fa-user"></i><span>john</span></li>
-                  <li><i class="fa fa-bookmark"></i><span>hosting </span></li>
+                  <li><i class="fa fa-bookmark"></i><span>home-automation</span></li>
                   <li><i class="fa fa-comments-o"></i><span>Comments: 25</span></li>
                 </ul>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>
@@ -736,7 +748,7 @@
             <!-- Blog List Start -->
             <div class="blog-list">
               <!-- Blog Thumb Start -->
-              <div class="blog-thumb"><img src="assets/img/blog-3.jpg" alt="blog">
+              <div class="blog-thumb"><img src="assets/img/software.jpg" alt="blog">
                   <div class="blog-overlay"><span></span><span></span></div>
                   <div class="blog-text">
                       <div class="blog-text1">
@@ -751,10 +763,10 @@
               <!-- Blog Thumb End-->
               <!-- Blog Content Start -->
               <div class="blog-content">
-                <div class="blog-header"><h6><a href="#">Best hosting services</a></h6></div>
+                <div class="blog-header"><h6><a href="#">Best Software services</a></h6></div>
                 <ul>
                   <li><i class="fa fa-user"></i><span>john</span></li>
-                  <li><i class="fa fa-bookmark"></i><span>hosting </span></li>
+                  <li><i class="fa fa-bookmark"></i><span>Software</span></li>
                   <li><i class="fa fa-comments-o"></i><span>Comments: 25</span></li>
                 </ul>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna . </p>
@@ -850,16 +862,16 @@
               </a><div class="client-list"><a href="#testimonial3" data-toggle="tab" aria-expanded="false">
                 <!-- Swiper -->
                               </a><div class="swiper-container client-container swiper-container-horizontal"><a href="#testimonial3" data-toggle="tab" aria-expanded="false">
-                                  </a><div class="swiper-wrapper" style="transform: translate3d(-1778.33px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="2"><div class="our-client"><a href="#"><img src="assets/img/client3.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="3"><div class="our-client"><a href="#"><img src="assets/img/client4.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="4"><div class="our-client"><a href="#"><img src="assets/img/client5.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="5"><div class="our-client"><a href="#"><img src="assets/img/client6.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="6"><div class="our-client"><a href="#"><img src="assets/img/client1.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="7"><div class="our-client"><a href="#"><img src="assets/img/client2.png" alt="client"></a></div></div><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a>
-                                      <div class="swiper-slide" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="0"><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a><div class="our-client"><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a><a href="#"><img src="assets/img/client1.png" alt="client"></a></div></div>
-                                      <div class="swiper-slide" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="1"><div class="our-client"><a href="#"><img src="assets/img/client2.png" alt="client"></a></div></div>
-                                      <div class="swiper-slide" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="2"><div class="our-client"><a href="#"><img src="assets/img/client3.png" alt="client"></a></div></div>
-                                      <div class="swiper-slide" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="3"><div class="our-client"><a href="#"><img src="assets/img/client4.png" alt="client"></a></div></div>
-                                      <div class="swiper-slide swiper-slide-prev" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="4"><div class="our-client"><a href="#"><img src="assets/img/client5.png" alt="client"></a></div></div>
-                                      <div class="swiper-slide swiper-slide-active" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="5"><div class="our-client"><a href="#"><img src="assets/img/client6.png" alt="client"></a></div></div>
-                                      <div class="swiper-slide swiper-slide-next" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="6"><div class="our-client"><a href="#"><img src="assets/img/client1.png" alt="client"></a></div></div>
-                                      <div class="swiper-slide" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="7"><div class="our-client"><a href="#"><img src="assets/img/client2.png" alt="client"></a></div></div>
-                                  <div class="swiper-slide swiper-slide-duplicate" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="0"><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a><div class="our-client"><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a><a href="#"><img src="assets/img/client1.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="1"><div class="our-client"><a href="#"><img src="assets/img/client2.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="2"><div class="our-client"><a href="#"><img src="assets/img/client3.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="3"><div class="our-client"><a href="#"><img src="assets/img/client4.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="4"><div class="our-client"><a href="#"><img src="assets/img/client5.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 131.667px; margin-right: 30px;" data-swiper-slide-index="5"><div class="our-client"><a href="#"><img src="assets/img/client6.png" alt="client"></a></div></div></div>
+                                  </a><div class="swiper-wrapper" style="transform: translate3d(-1500px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="4"><div class="our-client"><a href="#"><img src="assets/img/client5.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="5"><div class="our-client"><a href="#"><img src="assets/img/client6.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="6"><div class="our-client"><a href="#"><img src="assets/img/client1.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="7"><div class="our-client"><a href="#"><img src="assets/img/client2.png" alt="client"></a></div></div><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a>
+                                      <div class="swiper-slide" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="0"><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a><div class="our-client"><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a><a href="#"><img src="assets/img/client1.png" alt="client"></a></div></div>
+                                      <div class="swiper-slide" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="1"><div class="our-client"><a href="#"><img src="assets/img/client2.png" alt="client"></a></div></div>
+                                      <div class="swiper-slide" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="2"><div class="our-client"><a href="#"><img src="assets/img/client3.png" alt="client"></a></div></div>
+                                      <div class="swiper-slide swiper-slide-prev" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="3"><div class="our-client"><a href="#"><img src="assets/img/client4.png" alt="client"></a></div></div>
+                                      <div class="swiper-slide swiper-slide-active" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="4"><div class="our-client"><a href="#"><img src="assets/img/client5.png" alt="client"></a></div></div>
+                                      <div class="swiper-slide swiper-slide-next" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="5"><div class="our-client"><a href="#"><img src="assets/img/client6.png" alt="client"></a></div></div>
+                                      <div class="swiper-slide" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="6"><div class="our-client"><a href="#"><img src="assets/img/client1.png" alt="client"></a></div></div>
+                                      <div class="swiper-slide" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="7"><div class="our-client"><a href="#"><img src="assets/img/client2.png" alt="client"></a></div></div>
+                                  <div class="swiper-slide swiper-slide-duplicate" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="0"><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a><div class="our-client"><a href="#testimonial3" data-toggle="tab" aria-expanded="false"></a><a href="#"><img src="assets/img/client1.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="1"><div class="our-client"><a href="#"><img src="assets/img/client2.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="2"><div class="our-client"><a href="#"><img src="assets/img/client3.png" alt="client"></a></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" style="width: 157.5px; margin-right: 30px;" data-swiper-slide-index="3"><div class="our-client"><a href="#"><img src="assets/img/client4.png" alt="client"></a></div></div></div>
                                   <!-- Add Arrows -->
                       <div class="swiper-button-next">
                         <i class="fa fa-angle-double-right" aria-hidden="true"></i>
@@ -881,8 +893,103 @@
 
 <div class="clearfix"></div>
 <!--footer area start-->
-<?php include 'footer.php';?>
-
+<footer class="footer-area">
+        <div class="footer-support-bar">
+          <!-- Footer Support List Start -->
+          <div class="footer-support-list">
+            <ul>
+              <li>
+                <div class="footer-thumb"><i class="fa fa-headphones"></i></div>
+                <div class="footer-content">
+                  <p>24/7 Customer Support</p>
+                </div>
+              </li>
+              <li>
+                <div class="footer-thumb"><i class="fa fa-envelope"></i></div>
+                <div class="footer-content">
+                  <p><a href="#">support@loyalhost.com</a></p>
+                </div>
+              </li>
+              <li>
+                <div class="footer-thumb"><i class="fa fa-comments-o"></i></div>
+                <div class="footer-content">
+                  <p>open Support Ticket</p>
+                </div>
+              </li>
+              <li>
+                <div class="footer-thumb"><i class="fa fa-phone"></i></div>
+                <div class="footer-content">
+                  <p>+123 456 789 000</p>
+                </div>
+              </li>
+              </ul>
+            </div>
+            <!-- Footer Support End -->
+         </div>
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-3 col-sm-6">
+                     <div class="footer-widget-1">
+                         <div class="widget-title text-center">
+                             <h6>ABOUT US</h6>
+                            <p><img src="assets/img/widget-shped-logo.png" alt="Widget Logo Shaped Image"></p>
+                             
+                         </div>
+                         <div class="widget-one-body">
+                             <div class="footer-logo">
+                                 <img src="assets/img/footer-logo.png" alt="Footer Logo Image">
+                             </div>
+                             <p>EasyTech Solution. The ultimate Solution For Your Life.Here You Will Find  CCTV Camera,Softwares,On Demand Software,Web Developement Etc</p>
+                             <a href="#" class="widget-read-more">Read More...</a>
+                         </div>
+                         <div class="widget-one-footer">
+                             <p><i class="fa fa-map-marker"></i> Dhaka,Bangladesh</p>
+                             <p><i class="fa fa-phone"></i> +880 167 2896 992</p>
+                             <p><a href="#"><i class="fa fa-envelope"></i> porosh19940423@gmail.com</a></p>
+                         </div>
+                        <div class="footer-social-bar">
+                         <div class="footer-social-links">
+                             <a href="#"><i class="fa fa-facebook"></i></a>
+                             <a href="#"><i class="fa fa-twitter"></i></a>
+                             <a href="#"><i class="fa fa-dribbble"></i></a>
+                             <a href="#"><i class="fa fa-instagram"></i></a>
+                             <a href="#"><i class="fa fa-pinterest"></i></a>
+                         </div>
+                     </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 col-sm-6">
+                     <div class="footer-widget-2">
+                         
+         </div>
+         <div class="footer-bottom">
+             <div class="container">
+                     <div class="row">
+                         <div class="col-md-4 col-sm-12">
+                             <p class="copyright-text">
+                                 © 2018  EasyTech Solution. All rights reserved.
+                             </p>
+                         </div>
+                         <div class="col-md-6 col-sm-9">
+                             <div class="footer-menu">
+                                 <ul>                                         
+                                     <li><a href="#">Home</a></li>
+                                     <li><a href="#">About Us</a></li>
+                                     <li><a href="#">Services</a></li>
+                                     <li><a href="#">Contact Us</a></li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="col-md-2 col-sm-3">
+                             <a href="#" class="live-chat-btn"><i class="fa fa-comments-o"></i> Live Chat</a>
+                         </div>
+                 </div>
+             </div>
+         </div>
+             <div id="back-to-top" class="scroll-top back-to-top active" data-original-title="" title="" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+            </div>
+</div></div></div></footer>
 
 
     <!-- ========== Style swicher ========== -->

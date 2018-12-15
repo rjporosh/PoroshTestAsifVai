@@ -42,7 +42,7 @@
                          </div>
                          <div class="widget-one-body">
                              <div class="footer-logo">
-                                 <img src="assets/img/EasyTechSolutionLogo.jpg" alt="Footer Logo Image">
+                                 <img src="assets/img/footer-logo.png" alt="Footer Logo Image">
                              </div>
                              <p>EasyTech Solution. The ultimate Solution For Your Life.Here You Will Find  CCTV Camera,Softwares,On Demand Software,Web Developement Etc</p>
                              <a href="#" class="widget-read-more">Read More...</a>
